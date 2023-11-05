@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: white;
+    /* border:1px solid green; */
+    /* height: 100%; */
+}
+
+.head-a{
+    height: max-content;
+    background-color: green;
+    display: flex;
+}
+/* ====================main=============== */
+.main{
+   height: 80vh;
+   position: relative;
+    /* background-color: blue; */
+    /* border: 1px solid blue; */
+    overflow:scroll;
+}
+.blank-cont{
+    background-color: rgb(236, 235, 235);
+    height: 2.1em;
+    width: 2rem;
+    /* position: fixed; */
+}
+.s-row{ 
+    display: flex;
+    left: 2rem;
+    top: 0;
+    /* position:fixed; */
+    border:none;
+    position:absolute;
+    /* height: 2rem; */
+    /* width: 5rem; */
+}
+.s-col{
+    /* height: 2rem; */
+    /* position: fixed; */
+    width: 5rem;
+    align-content: center;
+    justify-items: center;
+    border: 0;
+    /* background-color: palegreen; */
+} 
+
+.row{
+    height: 2rem;
+    width: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: rgb(236, 235, 235);
+}
+
+.col{
+    text-align: center;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: rgb(236, 235, 235);
+}
+
+.cell-cont{
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+.row-cont{
+    display: flex;
+}
+.cell{
+    height: 2rem;
+    width: 5rem;
+    border: 1px solid white;
+    background-color: rgb(236, 235, 235);
+    /* gap: 1px; */
+    outline: none;
+    /* -webkit-appearance: none; */
+}
+
+
+
+/* =====================main end================= */
+.page-action{
+    height: 18px;
+    display: flex;
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+.cell-action{
+    
+    height: max-content;
+    background-color: rgb(236, 235, 235);
+    padding: 3px;
+}
+.formulae-action{
+    border:1px solid green;
+    height: 27px;
+    display: flex;
+    background-color: rgb(236, 235, 235);
+     
+}
+italic{
+    font-style: italic;
+    border: 0;
+    background-color: rgb(236, 235, 235);
+}
+.ls{
+    border: 1px solid black;
+    
+}
+.formulae-ls{
+    background-color: white;
+    padding: 0px 50px 0px 30px;
+    margin: 0px 50px 0px 50px;
+    border: 0;
+    
+}
+span{
+    height: min-content;
+    border: 0;
+    padding: 4 0 4 4px;
+    background-color: rgb(236, 235, 235);
+}
+.footer{
+    display: flex;
+    float: ;
+    /* align-content: flex-end; */
+    height: min-content;
+    /* align-items: flex-end; */
+    padding: 10px;
+    gap: 1rem;
+    /* background-color: aqua; */
+    
+}
+#lbar{
+    
+}
+section{
+    
+}
